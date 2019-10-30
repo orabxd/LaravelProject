@@ -13,6 +13,7 @@
             <div>
                 <div class="progress">
                     <div class="progress-bar bg-gradient-warning" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"></div>
+<<<<<<< HEAD
                 </div>
             </div>
         </div>
@@ -237,6 +238,12 @@
             </div>
         </div>
 =======
+    </td>
+>>>>>>> parent of 29b001f... Dashboard and titles
+=======
+                </div>
+            </div>
+        </div>
     </td>
 >>>>>>> parent of 29b001f... Dashboard and titles
 
