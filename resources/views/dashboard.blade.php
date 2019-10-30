@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 </div>
             </div>
         </div>
@@ -240,6 +241,12 @@
             </div>
         </div>
 =======
+    </td>
+>>>>>>> parent of 29b001f... Dashboard and titles
+=======
+                </div>
+            </div>
+        </div>
     </td>
 >>>>>>> parent of 29b001f... Dashboard and titles
 =======
