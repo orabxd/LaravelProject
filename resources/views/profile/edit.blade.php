@@ -3,7 +3,7 @@
 @section('content')
     @include('users.partials.header', [
         'title' => __('Hola') . ' '. auth()->user()->name,
-        'description' => __('Esta es tu pagina de perfil. Aqui puedes ver tu progreso\'ve made with your work and manage your projects or assigned tasks'),
+        'description' => __('Esta es tu pagina de perfil. Puedes ver el progreso que ha realizado con su trabajo y administrar sus proyectos o tareas asignadas.'),
         'class' => 'col-lg-7'
     ])
 
@@ -32,15 +32,15 @@
                                 <div class="card-profile-stats d-flex justify-content-center mt-md-5">
                                     <div>
                                         <span class="heading">22</span>
-                                        <span class="description">{{ __('Friends') }}</span>
+                                        <span class="description">{{ __('Amigos') }}</span>
                                     </div>
                                     <div>
                                         <span class="heading">10</span>
-                                        <span class="description">{{ __('Photos') }}</span>
+                                        <span class="description">{{ __('Fotos') }}</span>
                                     </div>
                                     <div>
                                         <span class="heading">89</span>
-                                        <span class="description">{{ __('Comments') }}</span>
+                                        <span class="description">{{ __('Comentarios') }}</span>
                                     </div>
                                 </div>
                             </div>
@@ -50,17 +50,17 @@
                                 {{ auth()->user()->name }}<span class="font-weight-light">, 27</span>
                             </h3>
                             <div class="h5 font-weight-300">
-                                <i class="ni location_pin mr-2"></i>{{ __('Bucharest, Romania') }}
+                                <i class="ni location_pin mr-2"></i>{{ __('Leon, Nicaragua') }}
                             </div>
                             <div class="h5 mt-4">
-                                <i class="ni business_briefcase-24 mr-2"></i>{{ __('Solution Manager - Creative Tim Officer') }}
+                                <i class="ni business_briefcase-24 mr-2"></i>{{ __('Gestor de Soluciones - Creative Tim Officer') }}
                             </div>
                             <div>
-                                <i class="ni education_hat mr-2"></i>{{ __('University of Computer Science') }}
+                                <i class="ni education_hat mr-2"></i>{{ __('Universidad Tecnologica La Salle') }}
                             </div>
                             <hr class="my-4" />
-                            <p>{{ __('Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music.') }}</p>
-                            <a href="#">{{ __('Show more') }}</a>
+                            <p>{{ __('Ryan - el nombre tomado por Melbourne-raised, con sede en Brooklyn Nick Murphy — escribe, interpreta y graba toda su música.') }}</p>
+                            <a href="#">{{ __('Ver mas') }}</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                 <div class="card bg-secondary shadow">
                     <div class="card-header bg-white border-0">
                         <div class="row align-items-center">
-                            <h3 class="col-12 mb-0">{{ __('Edit Profile') }}</h3>
+                            <h3 class="col-12 mb-0">{{ __('Editar Perfil') }}</h3>
                         </div>
                     </div>
                     <div class="card-body">
@@ -77,7 +77,7 @@
                             @csrf
                             @method('put')
 
-                            <h6 class="heading-small text-muted mb-4">{{ __('User information') }}</h6>
+                            <h6 class="heading-small text-muted mb-4">{{ __('Informacion de usuario') }}</h6>
 
                             @if (session('status'))
                                 <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -90,7 +90,7 @@
 
                             <div class="pl-lg-4">
                                 <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-                                    <label class="form-control-label" for="input-name">{{ __('Name') }}</label>
+                                    <label class="form-control-label" for="input-name">{{ __('Usuario') }}</label>
                                     <input type="text" name="name" id="input-name" class="form-control form-control-alternative{{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="{{ __('Name') }}" value="{{ old('name', auth()->user()->name) }}" required autofocus>
 
                                     @if ($errors->has('name'))
@@ -111,7 +111,7 @@
                                 </div>
 
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-success mt-4">{{ __('Save') }}</button>
+                                    <button type="submit" class="btn btn-success mt-4">{{ __('Guardar') }}</button>
                                 </div>
                             </div>
                         </form>
@@ -120,7 +120,7 @@
                             @csrf
                             @method('put')
 
-                            <h6 class="heading-small text-muted mb-4">{{ __('Password') }}</h6>
+                            <h6 class="heading-small text-muted mb-4">{{ __('Contraseña') }}</h6>
 
                             @if (session('password_status'))
                                 <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -133,7 +133,7 @@
 
                             <div class="pl-lg-4">
                                 <div class="form-group{{ $errors->has('old_password') ? ' has-danger' : '' }}">
-                                    <label class="form-control-label" for="input-current-password">{{ __('Current Password') }}</label>
+                                    <label class="form-control-label" for="input-current-password">{{ __('Contraseña actual') }}</label>
                                     <input type="password" name="old_password" id="input-current-password" class="form-control form-control-alternative{{ $errors->has('old_password') ? ' is-invalid' : '' }}" placeholder="{{ __('Current Password') }}" value="" required>
 
                                     @if ($errors->has('old_password'))
@@ -143,7 +143,7 @@
                                     @endif
                                 </div>
                                 <div class="form-group{{ $errors->has('password') ? ' has-danger' : '' }}">
-                                    <label class="form-control-label" for="input-password">{{ __('New Password') }}</label>
+                                    <label class="form-control-label" for="input-password">{{ __('Nueva contraseña') }}</label>
                                     <input type="password" name="password" id="input-password" class="form-control form-control-alternative{{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="{{ __('New Password') }}" value="" required>
 
                                     @if ($errors->has('password'))
@@ -153,12 +153,12 @@
                                     @endif
                                 </div>
                                 <div class="form-group">
-                                    <label class="form-control-label" for="input-password-confirmation">{{ __('Confirm New Password') }}</label>
+                                    <label class="form-control-label" for="input-password-confirmation">{{ __('Confirmar contraseña') }}</label>
                                     <input type="password" name="password_confirmation" id="input-password-confirmation" class="form-control form-control-alternative" placeholder="{{ __('Confirm New Password') }}" value="" required>
                                 </div>
 
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-success mt-4">{{ __('Change password') }}</button>
+                                    <button type="submit" class="btn btn-success mt-4">{{ __('Cambiar contraseña') }}</button>
                                 </div>
                             </div>
                         </form>
