@@ -2,11 +2,17 @@
 
 @section('content')
     @include('layouts.headers.cards')
-
+    
     <div class="container-fluid mt--7">
+<<<<<<< HEAD
         <div>
             <div class="col-xl-20 mb--9 mb-xl-0">
                 <div class="card bg-gradient-green shadow">
+=======
+        <div class="row">
+            <div class="col-xl-8 mb-5 mb-xl-0">
+                <div class="card bg-gradient-default shadow">
+>>>>>>> 4600d8dfea0e2731d3d9eb925063401c4dc9328d
                     <div class="card-header bg-transparent">
                         <div class="row align-items-center">
                             </div>
