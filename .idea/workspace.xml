@@ -4,7 +4,6 @@
     <list default="true" id="036a79fe-256a-48a7-88af-212dbd2e2487" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/headers/cards.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/headers/cards.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/partials/header.blade.php" afterDir="false" />
@@ -164,10 +163,14 @@
       <workItem from="1571714308719" duration="2399000" />
       <workItem from="1571786997327" duration="2216000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1572986112000" duration="4383000" />
 =======
       <workItem from="1572989158313" duration="2459000" />
 >>>>>>> 4600d8dfea0e2731d3d9eb925063401c4dc9328d
+=======
+      <workItem from="1572986112000" duration="686000" />
+>>>>>>> parent of 9c1a2a3... Edition del Dashboard
     </task>
     <servers />
   </component>
