@@ -8,7 +8,7 @@
         <div>
             <div class="col-xl-20 mb-5 mb-xl-0">
                 <div class="card bg-gradient-gray shadow">
-                   
+
 
         <div class="row">
             <div class="col-xl-8 mb--9 mb-xl-0">

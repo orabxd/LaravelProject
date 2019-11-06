@@ -7,7 +7,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-5 col-md-7">
                 <div class="card bg-gradient-white shadow border-0">
-                    <div class="card-header bg-default pb-5">
+                    <div class="card-header bg-white pb-5">
                         <div class="text-muted text-center mt-2 mb-3"><small>{{ __('Registrarse con') }}</small></div>
                         <div class="btn-wrapper text-center">
                             <a href="#" class="btn btn-neutral btn-icon">
