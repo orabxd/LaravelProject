@@ -10,7 +10,7 @@
         <div>
             <div class="col-xl-20 mb-5 mb-xl-0">
                 <div class="card bg-gradient-gray shadow">
-
+                   
 
 >>>>>>> parent of 78645e3... XD
         <div class="row">
