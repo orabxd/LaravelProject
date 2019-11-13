@@ -4,6 +4,15 @@
     @include('layouts.headers.cards')
     
     <div class="container-fluid mt--7">
+<<<<<<< HEAD
+=======
+
+        <div>
+            <div class="col-xl-20 mb-5 mb-xl-0">
+                <div class="card bg-gradient-gray shadow">
+
+
+>>>>>>> parent of 78645e3... XD
         <div class="row">
             <div class="col-xl-8 mb-5 mb-xl-0">
                 <div class="card bg-gradient-default shadow">
@@ -32,6 +41,7 @@
                         </div>
                     </div>
                     <div class="card-body">
+<<<<<<< HEAD
                         <!-- Chart -->
                         <div class="chart">
                             <!-- Chart wrapper -->
@@ -278,6 +288,11 @@
                 </div>
             </div>
         </div>
+=======
+                    </div>
+                </div>
+            </div>
+>>>>>>> parent of 78645e3... XD
 
         @include('layouts.footers.auth')
     </div>
