@@ -6,9 +6,9 @@
     <div class="container mt--8 pb-5">
         <div class="row justify-content-center">
             <div class="col-lg-5 col-md-7">
-                <div class="card bg-gradient-white shadow border-0">
-                    <div class="card-header bg-white pb-5">
-                        <div class="text-muted text-center mt-2 mb-3"><small>{{ __('Registrarse con') }}</small></div>
+                <div class="card bg-secondary shadow border-0">
+                    <div class="card-header bg-transparent pb-5">
+                        <div class="text-muted text-center mt-2 mb-3"><small>{{ __('Sign in with') }}</small></div>
                         <div class="btn-wrapper text-center">
                             <a href="#" class="btn btn-neutral btn-icon">
                                 <span class="btn-inner--icon"><img src="{{ asset('argon') }}/img/icons/common/github.svg"></span>
@@ -23,12 +23,12 @@
                     <div class="card-body px-lg-5 py-lg-5">
                         <div class="text-center text-muted mb-4">
                             <small>
-                                <a href="{{ route('login') }}">{{ __('Create new account') }}</a> {{ __('OR Sign in with these credentials:') }}
+                                <a href="{{ route('register') }}">{{ __('Create new account') }}</a> {{ __('OR Sign in with these credentials:') }}
                             </small>
                             <br>
                             <small>
-                                {{ __('Usuario') }} <strong>admin@argon.com</strong>
-                                {{ __('Contraseña') }} <strong>secret</strong>
+                                {{ __('Username') }} <strong>admin@argon.com</strong>
+                                {{ __('Password') }} <strong>secret</strong>
                             </small>
                         </div>
                         <form role="form" method="POST" action="{{ route('login') }}">
@@ -56,18 +56,18 @@
                                 </div>
                                 @if ($errors->has('password'))
                                     <span class="invalid-feedback" style="display: block;" role="alert">
-                                        <strong>{{ $errors->first('contraseña') }}</strong>
+                                        <strong>{{ $errors->first('password') }}</strong>
                                     </span>
                                 @endif
                             </div>
                             <div class="custom-control custom-control-alternative custom-checkbox">
                                 <input class="custom-control-input" name="remember" id="customCheckLogin" type="checkbox" {{ old('remember') ? 'checked' : '' }}>
                                 <label class="custom-control-label" for="customCheckLogin">
-                                    <span class="text-muted">{{ __('Recordarme') }}</span>
+                                    <span class="text-muted">{{ __('Remember me') }}</span>
                                 </label>
                             </div>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary my-4">{{ __('Ingresar') }}</button>
+                                <button type="submit" class="btn btn-primary my-4">{{ __('Sign in') }}</button>
                             </div>
                         </form>
                     </div>
@@ -76,13 +76,13 @@
                     <div class="col-6">
                         @if (Route::has('password.request'))
                             <a href="{{ route('password.request') }}" class="text-light">
-                                <small>{{ __('Olvidaste tu contraseña?') }}</small>
+                                <small>{{ __('Forgot password?') }}</small>
                             </a>
                         @endif
                     </div>
                     <div class="col-6 text-right">
-                        <a href="{{ route('login') }}" class="text-light">
-                            <small>{{ __('Cear una nueva cuenta') }}</small>
+                        <a href="{{ route('register') }}" class="text-light">
+                            <small>{{ __('Create new account') }}</small>
                         </a>
                     </div>
                 </div>
