@@ -116,7 +116,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs/PHP-Crud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,6 +124,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jeffe\Documents\GitHub\LaravelProject\resources\views" />
+      <recent name="C:\Users\jeffe\Documents\GitHub\LaravelProject\Include" />
+      <recent name="C:\Users\jeffe\Documents\GitHub\LaravelProject\resources\views\users" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,6 +168,7 @@
       <workItem from="1573017776375" duration="2774000" />
       <workItem from="1573050046229" duration="4099000" />
       <workItem from="1574259649876" duration="4694000" />
+      <workItem from="1574266442646" duration="4253000" />
     </task>
     <servers />
   </component>
@@ -179,15 +187,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/dashboard.blade.php</url>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

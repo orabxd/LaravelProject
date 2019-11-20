@@ -23,4 +23,10 @@ class HomeController extends Controller
     {
         return view('dashboard');
     }
+    public function Articulos()
+    {
+        return view('Articulos');
+    }
+
 }
+

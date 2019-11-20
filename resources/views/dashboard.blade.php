@@ -45,9 +45,11 @@
                                     <div class="card">
                                         <div class="card-body">
 
-                                            <a href="editar.php?id=" class="btn btn-secondary">
 
+                                            <a class="nav-link" href="{{ route('Articulos') }}">
+                                                <i class="bg-green text-primary"></i> {{ __('Articulos') }}
                                             </a>
+
                                     <button type="button" class="btn btn-success">Pago</button>
                                     <button type="button" class="btn btn-success">Entrega</button>
 
