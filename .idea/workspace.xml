@@ -116,7 +116,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/ING_SOFT" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -169,6 +169,10 @@
       <workItem from="1573050046229" duration="4099000" />
       <workItem from="1574259649876" duration="4694000" />
       <workItem from="1574266442646" duration="4253000" />
+      <workItem from="1574399585262" duration="29000" />
+      <workItem from="1574685285058" duration="5861000" />
+      <workItem from="1574694946466" duration="51000" />
+      <workItem from="1574831733627" duration="5778000" />
     </task>
     <servers />
   </component>

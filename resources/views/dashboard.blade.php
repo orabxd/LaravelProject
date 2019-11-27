@@ -29,11 +29,12 @@
                     <div class="card">
 
                         <div class="card-body">
-                            <div class="jumbotron bg-green" >
+                            <div class="card bg-green"  >
 
-                                    <h1>DATOS DE COMPRA</h1>
+                                     DATOS DE COMPRA
 
                             </div>
+
                                 <div class="form-group">
                                     <input type="text" name="apellidos" class="form-control"
                                            placeholder="Nombre" autofocus>
@@ -46,19 +47,18 @@
                                         <div class="card-body">
 
 
-                                            <a class="nav-link" href="{{ route('Articulos') }}">
-                                                <i class="bg-green text-primary"></i> {{ __('Articulos') }}
-                                            </a>
-
-                                    <button type="button" class="btn btn-success">Pago</button>
-                                    <button type="button" class="btn btn-success">Entrega</button>
+                                     <a type="button" class="btn btn-success" href="{{ route('Articulos') }}">Articulos</a></button>
+                                     <a type="button" class="btn btn-success" href="{{ route('Pago') }}">Pago</a></button>
+                                     <a type="button" class="btn btn-success" href="{{ route('Entrega') }}">Entrega</a></button>
 
 
-                                        </div>
-                                    </div>
+                                  </div>
+                                </div>
 
 
-                                    <button type="button" class="btn btn-primary btn-lg">Large</button>
+                                            <j type="button" class="btn btn-facebook" >Ordena</j></button>
+
+
 
                             </div>
                         </div>

@@ -28,5 +28,15 @@ class HomeController extends Controller
         return view('Articulos');
     }
 
+    public function Pago()
+    {
+        return view('pago');
+    }
+
+    public function Entrega()
+    {
+        return view('entrega');
+    }
+
 }
 

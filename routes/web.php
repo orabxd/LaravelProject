@@ -37,6 +37,9 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/Articulos', 'HomeController@Articulos')->name('Articulos');
 
+    Route::get('/Pago', 'HomeController@Pago')->name('Pago');
+    Route::get('/Entrega', 'HomeController@Entrega')->name('Entrega');
+
 });
 
 Auth::routes();
